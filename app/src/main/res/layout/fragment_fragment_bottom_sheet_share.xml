@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/bottomSheetBackground"
+    android:background="@drawable/background_drawable_one"
+    tools:context="io.qthjen_dev.docbao24h.Fragment.FragmentBottomSheetShare">
+
+    <TextView
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:text="@string/sharewith"
+        android:textColor="@color/textWhite"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet" />
+
+    <RelativeLayout
+        android:id="@+id/shareWithFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet">
+
+        <ImageView
+            android:src="@drawable/facebookwhite"
+            android:id="@+id/icon_faceShare"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLarge"/>
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:text="@string/shareface"
+            android:layout_toRightOf="@+id/icon_faceShare"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shareWithTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet">
+
+        <ImageView
+            android:src="@drawable/twitterwhite"
+            android:id="@+id/icon_twitterShare"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLarge"/>
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:text="@string/sharetwitter"
+            android:layout_toRightOf="@+id/icon_twitterShare"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shareWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet">
+
+        <ImageView
+            android:src="@drawable/googlewhite"
+            android:id="@+id/icon_googlePlusShare"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLarge"/>
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:text="@string/sharegoogle"
+            android:layout_toRightOf="@+id/icon_googlePlusShare"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/copyClipboard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet">
+
+        <ImageView
+            android:src="@drawable/copywhite"
+            android:id="@+id/icon_clipboard"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLarge"/>
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:text="@string/copyclip"
+            android:layout_toRightOf="@+id/icon_clipboard"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBottomSheet">
+
+        <ImageView
+            android:src="@drawable/clearwhite"
+            android:id="@+id/icon_close"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLarge"/>
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:text="@string/close"
+            android:layout_toRightOf="@+id/icon_close"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

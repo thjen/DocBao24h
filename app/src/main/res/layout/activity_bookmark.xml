@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_drawable_one"
+    android:fitsSystemWindows="true"
+    android:id="@+id/favoriteBackground"
+    tools:context="io.qthjen_dev.docbao24h.Activity.FavoriteActivity">
+
+    <android.support.design.widget.AppBarLayout
+        app:elevation="0dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/appbar_favoriteActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_not_elevation"
+            android:id="@+id/tbar_favorite"/>
+
+        <android.support.design.widget.TabLayout
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/textWhite"
+            app:tabTextColor="@color/textWhite"
+            android:id="@+id/tab_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:background="@drawable/background_drawable_one"
+        android:id="@+id/viewpagerFavorite"
+        android:layout_below="@+id/appbar_favoriteActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

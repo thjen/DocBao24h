@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/supperLargeMargin"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:id="@+id/relative_temp4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bticonlarge">
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_marginRight="@dimen/supperLargeMargin"
+            android:layout_marginLeft="@dimen/supperLargeMargin"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_backfacebooksignin"
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:visibility="gone"
+            android:textColor="@color/colorFive"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/logout"
+            android:id="@+id/bt_logoutfb"
+            android:layout_marginRight="@dimen/supperLargeMargin"
+            android:layout_marginLeft="@dimen/supperLargeMargin"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_backfacebooksignin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_marginLeft="@dimen/mediumMargin"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_backfacebooksignin"
+            android:src="@drawable/back"
+            android:layout_width="@dimen/bticonlarge"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+<!--
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:src="@drawable/user"
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:layout_below="@+id/relative_temp4"
+        android:id="@+id/fb_avatar"
+        android:layout_width="@dimen/circleimageAvatar"
+        android:layout_height="@dimen/circleimageAvatar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_fb_infor"
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/fb_avatar"
+        android:layout_marginBottom="@dimen/marginLarge"
+        android:layout_below="@+id/relative_temp4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/circleimageAvatar">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/fb_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/fb_email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+-->
+
+    <TextView
+        android:id="@+id/tv_showFbShareDialog"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/supperLargeMargin"
+        android:textColor="@color/textBlack"
+        android:layout_marginRight="@dimen/supperLargeMargin"
+        android:text="@string/sharewithFace"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relative_temp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

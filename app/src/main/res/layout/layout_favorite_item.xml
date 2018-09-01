@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="0dp"
+        android:id="@+id/cardViewFavorite"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageframe">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:id="@+id/iv_favoriteItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <eightbitlab.com.blurview.BlurView
+                app:blurOverlayColor="@color/colorOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:targetApi="KITKAT">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_above="@+id/tv_divider"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mediumText"
+                        android:paddingRight="@dimen/supperLargeMargin"
+                        android:paddingLeft="@dimen/supperLargeMargin"
+                        android:id="@+id/tv_titleFavorite"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tv_divider"
+                        android:background="@color/white"
+                        android:layout_above="@+id/relative_temp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/divider" />
+
+                    <RelativeLayout
+                        android:layout_alignParentBottom="true"
+                        android:id="@+id/relative_temp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bottomSheetMini">
+
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:paddingRight="@dimen/marginLarge"
+                            android:paddingLeft="@dimen/marginLarge"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/mediumText"
+                            android:id="@+id/tv_dateFavorite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                        <!--<ImageView-->
+                        <!--android:focusable="false"-->
+                        <!--android:id="@+id/iv_favorite"-->
+                        <!--android:src="@drawable/favorite"-->
+                        <!--android:layout_marginRight="@dimen/marginLarge"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_width="@dimen/bticonquite"-->
+                        <!--android:layout_height="@dimen/bticonquite" />-->
+
+                        <!--<ImageView-->
+                        <!--android:visibility="invisible"-->
+                        <!--android:layout_marginRight="@dimen/marginLarge"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:src="@drawable/favoritefill"-->
+                        <!--android:id="@+id/iv_favoriteFill"-->
+                        <!--android:focusable="false"-->
+                        <!--android:layout_width="@dimen/bticonquite"-->
+                        <!--android:layout_height="@dimen/bticonquite" />-->
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </eightbitlab.com.blurview.BlurView>
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

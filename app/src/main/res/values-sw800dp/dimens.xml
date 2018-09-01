@@ -1,0 +1,62 @@
+<resources>
+
+<dimen name="marginLarge">26.72dp</dimen>
+<dimen name="smallMargin">8.349999dp</dimen>
+<dimen name="mediumMargin">16.699999dp</dimen>
+<dimen name="quiteMargin">25.05dp</dimen>
+<dimen name="supperMediumMargin">33.399998dp</dimen>
+<dimen name="bigMargin">41.75dp</dimen>
+<dimen name="supperLargeMargin">50.1dp</dimen>
+<dimen name="nestedMargin">183.7dp</dimen>
+<dimen name="bestMargin">167.0dp</dimen>
+
+<dimen name="smallRadius">8.349999dp</dimen>
+<dimen name="mediumRadius">16.699999dp</dimen>
+<dimen name="largeRadius">25.05dp</dimen>
+<dimen name="supersmallradius">6.68dp</dimen>
+<dimen name="superRadius">334.0dp</dimen>
+<dimen name="smallElevation">3.34dp</dimen>
+<dimen name="largeElevation">8.349999dp</dimen>
+<dimen name="superLargeElevation">11.69dp</dimen>
+
+<dimen name="bticon">50.1dp</dimen>
+<dimen name="bticonmedium">66.799995dp</dimen>
+<dimen name="bticonquite">58.449997dp</dimen>
+<dimen name="bticonlarge">83.5dp</dimen>
+<dimen name="bticonsmall">33.399998dp</dimen>
+<dimen name="bottomBar">100.2dp</dimen>
+<dimen name="searchheight">66.799995dp</dimen>
+<dimen name="btdone">133.59999dp</dimen>
+<dimen name="heightIcondone">50.1dp</dimen>
+<dimen name="heightCategory">133.59999dp</dimen>
+<dimen name="facebooksigninMargin">50.1dp</dimen>
+<dimen name="facebookHeight">83.5dp</dimen>
+<dimen name="circleimageAvatar">116.899994dp</dimen>
+<dimen name="btSizeHeight">75.15dp</dimen>ự
+<dimen name="btSizeWidth">167.0dp</dimen>
+
+<dimen name="naviItem">116.899994dp</dimen>
+<dimen name="heightItemBaoNCC">116.899994dp</dimen>
+<dimen name="itemBottomSheet">93.52dp</dimen>
+<dimen name="dialogBar">100.2dp</dimen>
+
+<dimen name="logo">334.0dp</dimen>
+
+<dimen name="imageframe">417.5dp</dimen>
+<dimen name="ads">116.899994dp</dimen>
+
+<dimen name="bottomSheetMini">100.2dp</dimen>
+
+<dimen name="divider">1.67dp</dimen>
+<dimen name="largeDivider">3.34dp</dimen>
+<dimen name="largeShadow">2.5049999dp</dimen>
+
+<dimen name="smallText">25.05sp</dimen>
+<dimen name="superMediumText">28.39sp</dimen>
+<dimen name="mediumText">33.399998sp</dimen>
+<dimen name="suppermeidumText">37.575sp</dimen>
+<dimen name="quiteText">41.75sp</dimen>
+<dimen name="largeText">50.1sp</dimen>
+<dimen name="superLargeText">58.449997sp</dimen>
+
+</resources>

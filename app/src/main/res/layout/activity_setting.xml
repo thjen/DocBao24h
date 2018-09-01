@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/setting_background"
+    android:background="@drawable/background_drawable_one"
+    android:fitsSystemWindows="true"
+    tools:context="io.qthjen_dev.docbao24h.Activity.SettingActivity">
+
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/tbar_setting"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_temp5"
+        android:layout_below="@+id/tbar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/naviItem">
+
+        <TextView
+            android:layout_margin="@dimen/marginLarge"
+            android:id="@+id/tv_nightmodeSt"
+            android:gravity="center_vertical"
+            android:text="@string/nightmode"
+            android:layout_toLeftOf="@+id/switchNightmode"
+            android:layout_toRightOf="@+id/iv_nightmode"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/mediumText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_marginRight="@dimen/marginLarge"
+            android:src="@drawable/sun"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:id="@+id/iv_nightmode"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon" />
+
+        <Switch
+            android:layout_marginRight="@dimen/smallMargin"
+            android:layout_centerVertical="true"
+            android:id="@+id/switchNightmode"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_temp6"
+        android:layout_below="@+id/relative_temp5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/naviItem">
+
+        <ImageView
+            android:layout_marginRight="@dimen/marginLarge"
+            android:src="@drawable/theme_white"
+            android:layout_marginLeft="@dimen/marginLarge"
+            android:id="@+id/iv_whiteModern"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/bticon"
+            android:layout_height="@dimen/bticon" />
+
+        <TextView
+            android:layout_margin="@dimen/marginLarge"
+            android:id="@+id/tv_whiteModern"
+            android:gravity="center_vertical"
+            android:text="@string/thememodern"
+            android:layout_toLeftOf="@+id/whiteModern"
+            android:layout_toRightOf="@+id/iv_whiteModern"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/mediumText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Switch
+            android:layout_marginRight="@dimen/smallMargin"
+            android:layout_centerVertical="true"
+            android:id="@+id/whiteModern"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

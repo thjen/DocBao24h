@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="@dimen/largeText"
+        android:id="@+id/tv_temp2"
+        android:layout_marginTop="@dimen/marginLarge"
+        android:textColor="@color/textColorInDialogTitle"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:text="@string/inputinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:hint="@string/namefeedback"
+        android:layout_below="@+id/tv_temp2"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:id="@+id/til_nameFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="@color/textBlack"
+            android:paddingTop="@dimen/mediumMargin"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:hint="@string/sdt"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:layout_below="@+id/til_nameFeedBack"
+        android:id="@+id/til_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="@color/textBlack"
+            android:paddingTop="@dimen/mediumMargin"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:hint="@string/body"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:layout_marginLeft="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:layout_below="@+id/til_sdt"
+        android:id="@+id/til_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="@color/textBlack"
+            android:paddingTop="@dimen/mediumMargin"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+        android:id="@+id/bt_doneDialogOrther"
+        android:layout_marginBottom="@dimen/supperLargeMargin"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorInDialog"
+        android:text="@string/done"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:background="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/til_description"
+        android:layout_width="@dimen/btSizeWidth"
+        android:layout_height="@dimen/btSizeHeight" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+        android:id="@+id/backDialogSendFeedbackOrther"
+        android:text="@string/close"
+        android:layout_below="@+id/til_description"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/supperLargeMargin"
+        android:layout_marginRight="@dimen/marginLarge"
+        android:layout_marginBottom="@dimen/supperLargeMargin"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorInDialog"
+        android:layout_toLeftOf="@+id/bt_doneDialogOrther"
+        android:layout_width="@dimen/btSizeWidth"
+        android:layout_height="@dimen/btSizeHeight" />
+
+</RelativeLayout>

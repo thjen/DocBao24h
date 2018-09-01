@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0189FF</color>
+    <color name="colorPrimaryDark">#0189FF</color>
+    <color name="colorAccent">#fff43c</color>
+
+    <color name="colorOverlay">#90000000</color>
+    <color name="colorAccentOverlay">#1400bcd4</color>
+    <color name="colorTransparentBlack">#14000000</color>
+    <color name="colorPrimaryTransparent">#6400bcd4</color>
+
+    <color name="textWhite">#ffffff</color>
+    <color name="textBlack">#90101010</color>
+    <color name="textSuperBlack">#212121</color>
+
+    <!-- Dark Text Color for Light Background -->
+    <color name="textDarkPrimary">#DE000000</color> <!--DE for %87 opacity-->
+    <color name="textDarkSecondary">#8A000000</color> <!--8A for %54 opacity-->
+    <color name="textDarkDisabled">#61000000</color> <!--61 for %38 opacity-->
+
+    <!-- White Text Color for Dark Background -->
+    <color name="textLightPrimary">#FFFFFF</color> <!--%100 opacity-->
+    <color name="textLightSecondary">#B2FFFFFF</color> <!--B2 for %70 opacity-->
+    <color name="textLightDisabled">#80FFFFFF</color> <!--80 for %50 opacity-->
+    <color name="textLightDisabledDEPRECATED">#4CFFFFFF</color> <!--4C for %30 opacity-->
+
+    <color name="white">#ffffff</color>
+
+    <color name="colorOne">#A5FF18</color>
+    <color name="colorTwo">#EB82FF</color>
+    <color name="colorThree">#18DCFF</color>
+    <color name="colorFour">#FFF467</color>
+    <color name="colorFive">#FC5161</color>
+    <color name="colorSix">#ffa726</color>
+    <color name="colorSeven">#fff43c</color>
+
+    <color name="favoriteColor">#FF4C4C</color>
+    <color name="whitepink">#FCF0F8</color>
+    <color name="whiteblue">#EFF8FF</color>
+    <color name="dark">#0A1034</color>
+    <color name="belowdark">#161A40</color>
+
+    <color name="textColorInDialog">#00B7FF</color>
+    <color name="textColorInDialogTitle">#90101010</color>
+
+</resources>

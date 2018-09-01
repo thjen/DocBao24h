@@ -1,0 +1,62 @@
+<resources>
+
+    <dimen name="marginLarge">16dp</dimen>
+    <dimen name="smallMargin">5dp</dimen>
+    <dimen name="mediumMargin">10dp</dimen>
+    <dimen name="quiteMargin">15dp</dimen>
+    <dimen name="supperMediumMargin">20dp</dimen>
+    <dimen name="bigMargin">25dp</dimen>
+    <dimen name="supperLargeMargin">30dp</dimen>
+    <dimen name="nestedMargin">110dp</dimen>
+    <dimen name="bestMargin">100dp</dimen>
+
+    <dimen name="smallRadius">5dp</dimen>
+    <dimen name="mediumRadius">10dp</dimen>
+    <dimen name="largeRadius">15dp</dimen>
+    <dimen name="supersmallradius">4dp</dimen>
+    <dimen name="superRadius">200dp</dimen>
+    <dimen name="smallElevation">2dp</dimen>
+    <dimen name="largeElevation">5dp</dimen>
+    <dimen name="superLargeElevation">7dp</dimen>
+
+    <dimen name="bticon">30dp</dimen>
+    <dimen name="bticonmedium">40dp</dimen>
+    <dimen name="bticonquite">35dp</dimen>
+    <dimen name="bticonlarge">50dp</dimen>
+    <dimen name="bticonsmall">20dp</dimen>
+    <dimen name="bottomBar">60dp</dimen>
+    <dimen name="searchheight">40dp</dimen>
+    <dimen name="btdone">80dp</dimen>
+    <dimen name="heightIcondone">30dp</dimen>
+    <dimen name="heightCategory">80dp</dimen>
+    <dimen name="facebooksigninMargin">30dp</dimen>
+    <dimen name="facebookHeight">50dp</dimen>
+    <dimen name="circleimageAvatar">70dp</dimen>
+    <dimen name="btSizeHeight">45dp</dimen>ự
+    <dimen name="btSizeWidth">100dp</dimen>
+
+    <dimen name="naviItem">70dp</dimen>
+    <dimen name="heightItemBaoNCC">70dp</dimen>
+    <dimen name="itemBottomSheet">56dp</dimen>
+    <dimen name="dialogBar">60dp</dimen>
+
+    <dimen name="logo">200dp</dimen>
+
+    <dimen name="imageframe">250dp</dimen>
+    <dimen name="ads">70dp</dimen>
+
+    <dimen name="bottomSheetMini">60dp</dimen>
+
+    <dimen name="divider">1dp</dimen>
+    <dimen name="largeDivider">2dp</dimen>
+    <dimen name="largeShadow">1.5dp</dimen>
+
+    <dimen name="smallText">15sp</dimen>
+    <dimen name="superMediumText">17sp</dimen>
+    <dimen name="mediumText">20sp</dimen>
+    <dimen name="suppermeidumText">22.5sp</dimen>
+    <dimen name="quiteText">25sp</dimen>
+    <dimen name="largeText">30sp</dimen>
+    <dimen name="superLargeText">35sp</dimen>
+
+</resources>

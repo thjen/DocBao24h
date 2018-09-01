@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/heightItemBaoNCC"
+    android:paddingTop="@dimen/marginLarge"
+    android:paddingLeft="@dimen/marginLarge"
+    android:paddingBottom="@dimen/mediumMargin"
+    android:layout_marginTop="@dimen/smallMargin">
+
+    <RelativeLayout
+        android:paddingRight="@dimen/marginLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_imagebao"
+            android:layout_width="@dimen/bticonlarge"
+            android:layout_height="@dimen/bticonsmall" />
+
+        <TextView
+            android:textColor="@color/textWhite"
+            android:paddingLeft="@dimen/supperLargeMargin"
+            android:id="@+id/tv_chooseBao"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_imagebao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

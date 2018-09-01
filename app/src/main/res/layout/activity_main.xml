@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    android:clickable="true"
+    android:id="@+id/drawer"
+    tools:context="io.qthjen_dev.docbao24h.Activity.MainActivity">
+
+    <!--<RelativeLayout
+        android:id="@+id/relativeNoComnec"
+        android:fitsSystemWindows="true"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bt_reload"
+            android:src="@drawable/reload"
+            android:layout_width="@dimen/bticonlarge"
+            android:layout_height="@dimen/bticonlarge" />
+
+        <TextView
+            android:textSize="@dimen/superMediumText"
+            android:layout_marginTop="@dimen/mediumMargin"
+            android:textColor="@color/textSuperBlack"
+            android:layout_centerHorizontal="true"
+            android:text="@string/noconnec"
+            android:layout_below="@+id/bt_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:background="@drawable/background_drawable_one"
+        android:id="@+id/homeBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            app:elevation="0dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/app_barLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/toolbar_not_elevation"
+                android:id="@+id/tbar_main" />
+
+            <android.support.design.widget.TabLayout
+                app:tabTextAppearance="@style/MyCustomTextAppearance"
+                android:id="@+id/tbar_layoutMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/textWhite"
+                app:tabTextColor="@color/textWhite">
+
+            </android.support.design.widget.TabLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:background="@drawable/background_drawable_one"
+        android:id="@+id/view_pagerMain"
+        android:layout_below="@+id/app_barLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:fitsSystemWindows="true"
+        android:background="@drawable/background_drawable_one"
+        android:id="@+id/navigation"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_centerVertical="true"
+                android:id="@+id/recyclerNavi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

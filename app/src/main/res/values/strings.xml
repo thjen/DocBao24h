@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Báo 24h</string>
+
+    <string name="facebook_app_id">1655785477853941</string>
+    <string name="fb_login_protocol_scheme">fb1655785477853941</string>
+
+    <string name="small_banner">ca-app-pub-5500691912127373/6394781560</string>
+    <string name="fullscreen_banner">ca-app-pub-5500691912127373/7109097435</string>
+    <string name="video_banner">ca-app-pub-5500691912127373/4890128205</string>
+
+    <!--<string name="noconnec">No network connection</string>-->
+    <string name="noconnec">Không có kết nối internet</string>
+    <string name="home">Trang chủ</string>
+    <string name="trangbao">Trang báo</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="setting">Cài đặt</string>
+    <string name="about">Phiên bản: 1.0.0 Beta</string>
+    <string name="feedback">Gửi phản hồi</string>
+    <string name="readneartime">Đọc gần đây</string>
+    <string name="addedFavorite">Bài báo đã được thêm vào danh sách yêu thích</string>
+    <string name="removedFavorite">Bài báo đã bị xóa khỏi danh sách yêu thích</string>
+    <string name="list">Danh sách</string>
+    <string name="category">Chuyên mục</string>
+    <string name="nightmode">Giao diện tối</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="removeAll">Xóa hết</string>
+    <string name="no">Không</string>
+    <string name="yes">Có</string>
+    <string name="areyouremoveallFavorite">Bạn có chắc chắn muốn xóa toàn bộ danh sách yêu thích của bạn</string>
+    <string name="areyouremoveallRecently">Bạn có chắc chắn muốn xóa toàn bộ danh sách xem gần đây của bạn</string>
+    <string name="remove">Xóa hết</string>
+    <string name="shareface">Chia sẻ với Facebook</string>
+    <string name="sharegoogle">Chia sẻ với Google</string>
+    <string name="sharetwitter">Chia sẻ với Twitter</string>
+    <string name="close">Đóng</string>
+    <string name="sharewith">Chia sẻ với</string>
+    <string name="sharewithFace">Chia sẻ với Facebook</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="functionHasNotBeenDevelop">Chức năng này chưa được phát triển, bạn vui lòng đợi các bản cập nhật tiếp theo</string>
+    <string name="copyclip">Sao chép liên kết</string>
+    <string name="linkHasBeenSaveClipboard">Liên kết đã được lưu vào Clipboard</string>
+    <string name="emailfeedback">Email</string>
+    <string name="other">Khác</string>
+    <string name="sendFeedback">Gửi phản hồi</string>
+    <string name="done">Xong</string>
+    <string name="email">Nhập Email</string>
+    <string name="subject">Nhập chủ đề</string>
+    <string name="body">Nhập nội dung</string>
+    <string name="sending">Chọn công cụ để gửi</string>
+    <string name="emailNoInstalled">Email không được cài đặt</string>
+    <string name="inputinfo">Nhập thông tin</string>
+    <string name="sdt">Nhập só điện thoại</string>
+    <string name="namefeedback">Nhập họ và tên</string>
+    <string name="sendfinished">Gửi thành công</string>
+    <string name="pleaseInputInfo">Mời bạn nhập thông tin</string>
+    <string name="errorCheckinfo">Lỗi! Kiểm tra lại thông tin mà bạn nhập</string>
+    <string name="newleaf">Giao diện New Leaf</string>
+    <string name="thememodern">Giao diện Deep Sea</string>
+    <string name="choosebao">Chọn tờ báo</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- express -->
+    <string name="trangchu">Trang chủ</string>
+    <string name="thoisu">Thời sự</string>
+    <string name="thegioi">Thế giới</string>
+    <string name="kinhdoan">Kinh doanh</string>
+    <string name="startup">Startup</string>
+    <string name="giaitri">Giải trí</string>
+    <string name="thethao">Thể thao</string>
+    <string name="phapluat">Pháp luật</string>
+    <string name="giaoduc">Giáo dục</string>
+    <string name="suckhoe">Sức khỏe</string>
+    <string name="giadinh">Gia đình</string>
+    <string name="dulich">Du lịch</string>
+    <string name="khoahoc">Khoa học</string>
+    <string name="sohoa">Số hóa</string>
+    <string name="xe">Xe</string>
+    <string name="congdong">Cộng đồng</string>
+    <string name="tamsu">Tâm sự</string>
+
+    <!-- 24h -->
+    <string name="tinngay">Tin trong ngày</string>
+    <string name="bongda">Bóng đá</string>
+    <string name="euro">Euro</string>
+    <string name="anninh">An ninh</string>
+    <string name="thoitrang">Thời trang</string>
+    <string name="thoitranghitech">Thời trang Hi-tech</string>
+    <string name="taichinh">Tài chính</string>
+    <string name="amthuc">Ẩm thực</string>
+    <string name="lamdep">Làm đẹp</string>
+    <string name="phim">Phim</string>
+    <string name="cuocsong">Đời sống</string>
+    <string name="canhac">Ca nhạc</string>
+    <string name="phithuong">Phi thường</string>
+    <string name="congnghe">Công nghệ</string>
+    <string name="thitruong">Thị trường</string>
+
+    <!-- dan tri -->
+    <string name="xahoi">Xã hội</string>
+    <string name="tuvan">Tư vấn</string>
+    <string name="kysu">Ký sự</string>
+    <string name="moitruong">Môi trường</string>
+    <string name="chinhtri">Chính trị</string>
+    <string name="giaothong">Giao thông</string>
+    <string name="saoviet">Sao việt</string>
+    <string name="hollywood">Hollywood</string>
+    <string name="tuyensinh">Tuyển sinh</string>
+    <string name="vieclam">Việc làm</string>
+    <string name="vanhoa">Văn hóa</string>
+
+    <!-- soha -->
+    <string name="quansu">Quân sự</string>
+    <string name="khampha">Khám phá</string>
+
+    <!-- vietnam net -->
+    <string name="tinmoi">Tin mới</string>
+    <string name="tinnoibat">Tin nổi bật</string>
+    <string name="tuanvietnam">Tuần việt nam</string>
+    <string name="batdongsan">Bất động sản</string>
+
+    <!-- bd 365 -->
+    <string name="bdanh">Bóng đá Anh</string>
+    <string name="bdviet">Bóng đá Việt</string>
+    <string name="tinchuyennhuong">Tin chuyển nhượng</string>
+    <string name="bdy">Bóng đá Ý</string>
+    <string name="bdtbn">Bóng đá Tây Ban Nha</string>
+    <string name="bdd">Bóng đá Đức</string>
+    <string name="bdp">Bóng đá Pháp</string>
+    <string name="cham">Champions League</string>
+    <string name="photo">Photo</string>
+    <string name="bdcau">Bóng đá Châu Âu</string>
+    <string name="bdcm">Bóng đá Châu Mỹ</string>
+    <string name="bdca">Bóng đá Châu Á</string>
+    <string name="wc">World cup</string>
+    <string name="sea">SEA </string>
+    <string name="olym">Olympics</string>
+    <string name="aff">AFF Cup</string>
+    <string name="giaohuu">Giao hữu</string>
+    <string name="tinnong">Tin nóng</string>
+    <string name="binhluan">Bình luận</string>
+    <string name="nhandinh">Nhận định</string>
+    <string name="kinhte">Kinh tế</string>
+    <string name="doanhnghiep">Doanh nghiệp</string>
+
+    <string name="tintuc">Tin tức</string>
+    <string name="sanpham">Sản phẩm</string>
+
+    <!-- gamek -->
+    <string name="mmo">MMO</string>
+    <string name="pcconsole">PC Console</string>
+    <string name="esport">Esport</string>
+    <string name="mobile">Mobile</string>
+    <string name="gaminggear">Gaming Gear</string>
+    <string name="mangafilm">Manga Film</string>
+    <string name="game">Games</string>
+
+    <string name="ldcuoituan">Lao động cuối tuần</string>
+    <string name="ldvadoising">Lao động và đời sống</string>
+    <string name="tanman">Tản mạn</string>
+    <string name="diendan">Diễn đàn</string>
+    <string name="truyenthong">Truyền thông</string>
+    <string name="testlab">Test Lab</string>
+
+    <!-- title NCC -->
+    <string name="ex">VnExpress</string>
+    <string name="_24h">24h</string>
+    <string name="dan">Dân trí</string>
+    <string name="soh">Soha</string>
+    <string name="vietnamnet">Vietnamnet</string>
+    <string name="bd365">Bóng đá 365</string>
+    <string name="tt">Tinh tế</string>
+    <string name="bd24">Bóng đá 24h</string>
+    <string name="gk">GameK</string>
+    <string name="tp">Tiền phong</string>
+    <string name="tn">Thanh niên</string>
+    <string name="vtc">Vtc News</string>
+    <string name="ld">Lao động</string>
+    <string name="info">InfoNet</string>
+    <string name="vnre">VnReview</string>
+    <string name="pcworld">PcWorld</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

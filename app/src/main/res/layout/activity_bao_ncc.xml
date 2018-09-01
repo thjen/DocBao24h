@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_drawable_one"
+    android:fitsSystemWindows="true"
+    android:id="@+id/baoNccBackground"
+    tools:context="io.qthjen_dev.docbao24h.Activity.BaoNCCActivity">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:id="@+id/tbar_baoncc"/>
+
+    <TextView
+        android:textSize="@dimen/suppermeidumText"
+        android:layout_marginTop="@dimen/marginLarge"
+        android:layout_marginLeft="@dimen/supperLargeMargin"
+        android:text="@string/choosebao"
+        android:id="@+id/tv_temp3"
+        android:layout_below="@+id/tbar_baoncc"
+        android:textColor="@color/textWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:fitsSystemWindows="true"
+        android:layout_below="@+id/tv_temp3"
+        android:id="@+id/recycler_chooseBao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_drawable_one"
+    android:id="@+id/feedback_background"
+    android:fitsSystemWindows="true"
+    tools:context="io.qthjen_dev.docbao24h.Activity.FeedbackActivity">
+
+    <include layout="@layout/toolbar_not_elevation"
+        android:id="@+id/tbar_feedback"/>
+
+    <RelativeLayout
+        android:paddingRight="@dimen/supperLargeMargin"
+        android:paddingLeft="@dimen/supperLargeMargin"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:elevation="@dimen/largeElevation"
+            android:transformPivotY="@dimen/largeElevation"
+            android:layout_marginRight="@dimen/supperLargeMargin"
+            android:layout_marginLeft="@dimen/supperLargeMargin"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:id="@+id/sendFeedBackByEmail"
+            android:background="@drawable/button_custom_one"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFive"
+            android:text="@string/emailfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginBottom="@dimen/marginLarge"
+            android:elevation="@dimen/largeElevation"
+            android:transformPivotY="@dimen/largeElevation"
+            android:layout_marginRight="@dimen/supperLargeMargin"
+            android:layout_marginLeft="@dimen/supperLargeMargin"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:layout_below="@+id/sendFeedBackByEmail"
+            android:id="@+id/sendFeedBackByOther"
+            android:background="@drawable/button_custom_two"
+            android:textColor="@color/colorSix"
+            android:textAllCaps="false"
+            android:text="@string/other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<resources>
+
+<dimen name="marginLarge">24.0dp</dimen>
+<dimen name="smallMargin">7.5dp</dimen>
+<dimen name="mediumMargin">15.0dp</dimen>
+<dimen name="quiteMargin">22.5dp</dimen>
+<dimen name="supperMediumMargin">30.0dp</dimen>
+<dimen name="bigMargin">37.5dp</dimen>
+<dimen name="supperLargeMargin">45.0dp</dimen>
+<dimen name="nestedMargin">165.0dp</dimen>
+<dimen name="bestMargin">150.0dp</dimen>
+
+<dimen name="smallRadius">7.5dp</dimen>
+<dimen name="mediumRadius">15.0dp</dimen>
+<dimen name="largeRadius">22.5dp</dimen>
+<dimen name="supersmallradius">6.0dp</dimen>
+<dimen name="superRadius">300.0dp</dimen>
+<dimen name="smallElevation">3.0dp</dimen>
+<dimen name="largeElevation">7.5dp</dimen>
+<dimen name="superLargeElevation">10.5dp</dimen>
+
+<dimen name="bticon">45.0dp</dimen>
+<dimen name="bticonmedium">60.0dp</dimen>
+<dimen name="bticonquite">52.5dp</dimen>
+<dimen name="bticonlarge">75.0dp</dimen>
+<dimen name="bticonsmall">30.0dp</dimen>
+<dimen name="bottomBar">90.0dp</dimen>
+<dimen name="searchheight">60.0dp</dimen>
+<dimen name="btdone">120.0dp</dimen>
+<dimen name="heightIcondone">45.0dp</dimen>
+<dimen name="heightCategory">120.0dp</dimen>
+<dimen name="facebooksigninMargin">45.0dp</dimen>
+<dimen name="facebookHeight">75.0dp</dimen>
+<dimen name="circleimageAvatar">105.0dp</dimen>
+<dimen name="btSizeHeight">67.5dp</dimen>ự
+<dimen name="btSizeWidth">150.0dp</dimen>
+
+<dimen name="naviItem">105.0dp</dimen>
+<dimen name="heightItemBaoNCC">105.0dp</dimen>
+<dimen name="itemBottomSheet">84.0dp</dimen>
+<dimen name="dialogBar">90.0dp</dimen>
+
+<dimen name="logo">300.0dp</dimen>
+
+<dimen name="imageframe">375.0dp</dimen>
+<dimen name="ads">105.0dp</dimen>
+
+<dimen name="bottomSheetMini">90.0dp</dimen>
+
+<dimen name="divider">2.25dp</dimen>
+<dimen name="largeDivider">3.0dp</dimen>
+<dimen name="largeShadow">2.25dp</dimen>
+
+<dimen name="smallText">33.75sp</dimen>
+<dimen name="superMediumText">25.5sp</dimen>
+<dimen name="mediumText">30.0sp</dimen>
+<dimen name="suppermeidumText">33.75sp</dimen>
+<dimen name="quiteText">37.5sp</dimen>
+<dimen name="largeText">45.0sp</dimen>
+<dimen name="superLargeText">52.5sp</dimen>
+
+</resources>
